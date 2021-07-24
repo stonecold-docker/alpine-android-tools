@@ -1,11 +1,13 @@
 # alpine-android-tools
+![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721/alpine-android-tools)
+![Docker Stars](https://img.shields.io/docker/stars/forumi0721/alpine-android-tools)
 
-#### [alpine-x64-android-tools](https://hub.docker.com/r/forumi0721alpinex64/alpine-x64-android-tools/)
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721alpinex64/alpine-x64-android-tools/latest)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721alpinex64/alpine-x64-android-tools/latest)
-![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/forumi0721alpinex64/alpine-x64-android-tools/latest)
-![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721alpinex64/alpine-x64-android-tools)
-![Docker Stars](https://img.shields.io/docker/stars/forumi0721alpinex64/alpine-x64-android-tools)
+
+
+----------------------------------------
+#### [alpine-android-tools](https://hub.docker.com/r/forumi0721/alpine-android-tools/)
+![Docker Image Version](https://img.shields.io/docker/v/forumi0721/alpine-android-tools/latest)
+![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-android-tools/latest)
 
 
 
@@ -27,7 +29,7 @@ docker run -i -t --rm \
            -e RUN_USER_NAME=<user_name> \
            -e RUN_USER_UID=<user_uid> \
            -e RUN_USER_GID=<user_gid> \
-           forumi0721alpine[ARCH]/alpine-[ARCH]-android-tools:latest
+           forumi0721/alpine-android-tools:[ARCH_TAG]
 ```
 
 

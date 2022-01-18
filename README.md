@@ -6,8 +6,8 @@
 
 ----------------------------------------
 #### [alpine-android-tools](https://hub.docker.com/r/forumi0721/alpine-android-tools/)
-![Docker Image Version](https://img.shields.io/docker/v/forumi0721/alpine-android-tools/latest)
-![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-android-tools/latest)
+![Docker Image Version](https://img.shields.io/docker/v/forumi0721/alpine-android-tools/x64)
+![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-android-tools/x64)
 
 
 

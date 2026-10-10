@@ -1,6 +1,0 @@
-image: forumi0721/alpine-android-tools:latest
-manifests:
-  - image: forumi0721/alpine-android-tools:x64
-    platform:
-      architecture: amd64
-      os: linux

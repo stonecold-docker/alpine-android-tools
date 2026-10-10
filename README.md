@@ -5,8 +5,8 @@
 
 
 ----------------------------------------
-#### [alpine-android-tools](https://hub.docker.com/r/forumi0721/alpine-android-tools/)
-![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-android-tools/x64)
+### amd64
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721/alpine-android-tools/latest?arch=amd64)
 
 
 
@@ -14,8 +14,8 @@
 #### Description
 
 * Distribution : [Alpine Linux](https://alpinelinux.org/)
-* Architecture : x64
-* Appplication : [android-tools](https://sites.google.com/a/android.com/tools/)
+* Architecture : amd64
+* Application : [android-tools](https://sites.google.com/a/android.com/tools/)
     - Android Debug Bridge (adb) is a versatile command-line tool that lets you communicate with a device. 
 
 
@@ -28,7 +28,7 @@ docker run -i -t --rm \
            -e RUN_USER_NAME=<user_name> \
            -e RUN_USER_UID=<user_uid> \
            -e RUN_USER_GID=<user_gid> \
-           forumi0721/alpine-android-tools:[ARCH_TAG]
+           forumi0721/alpine-android-tools:latest
 ```
 
 
